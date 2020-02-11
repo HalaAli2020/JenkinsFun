@@ -4,9 +4,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MainTest {
+    boolean a=true;
 
     @Test
-    public void addition_isCorrect() {
-        assertEquals(10, 8 + 2);
+    public void boolean_isCorrect() {
+        assertTrue(a);
     }
 }
