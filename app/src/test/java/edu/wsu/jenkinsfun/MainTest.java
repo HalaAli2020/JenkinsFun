@@ -4,10 +4,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MainTest {
-    boolean a=true;
+
+    int a = 6;
 
     @Test
-    public void boolean_isCorrect() {
-        assertTrue(a);
+    public void multiply_isCorrect() {
+        assertEquals(a, 3* 2);
     }
 }
